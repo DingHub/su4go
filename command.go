@@ -1,4 +1,4 @@
-package util
+package su4go
 
 
 import (
