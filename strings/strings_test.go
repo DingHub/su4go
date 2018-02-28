@@ -35,6 +35,7 @@ func TestSubStringBetween(t *testing.T) {
 		{"abc123SSS", "x", "SS", ""},
 		{"", "a", "1", ""},
 		{"fffabcXYZSSS===", "SSS", "abc", "XYZ"},
+		{"fffabcXYZSSS===", "bc", "YZ", "X"},
 		{"1223334444", "22", "333", ""},
 		{"1223334444", "444", "333", ""},
 	}
