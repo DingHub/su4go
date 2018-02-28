@@ -1,5 +1,4 @@
-package su4go
-
+package command
 
 import (
 	"os/exec"

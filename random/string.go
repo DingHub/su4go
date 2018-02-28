@@ -14,7 +14,7 @@ func NewString(length int, set string) string {
 	result := []byte{}
 	r := mathrand.New(mathrand.NewSource(time.Now().UnixNano()))
 	lenBytes := len(bytes)
-	for i:=0; i< length; i++ {
+	for i := 0; i < length; i++ {
 		result = append(result, bytes[r.Intn(lenBytes)])
 	}
 	return string(result)

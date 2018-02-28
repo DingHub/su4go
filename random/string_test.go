@@ -24,7 +24,7 @@ func TestNewString(t *testing.T) {
 	}
 }
 func TestNewString2(t *testing.T) {
-	for i:=0; i<3; i++  {
+	for i := 0; i < 3; i++ {
 		t.Log(NewString(13, `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,.?/!@#$%^&*()_+-=<>{}[]|\'"`))
 	}
 }

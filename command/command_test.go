@@ -1,4 +1,4 @@
-package su4go
+package command
 
 import (
 	"testing"
@@ -36,7 +36,7 @@ func TestRunCommandWithTimeout(t *testing.T) {
 
 	for _, test := range tests {
 		inner(test.cmd, 2, t)
-		inner(test.cmd, 20 * time.Second, t)
+		inner(test.cmd, 20*time.Second, t)
 	}
 }
 
